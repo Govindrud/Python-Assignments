@@ -1,11 +1,10 @@
 def NumberCount(No):
-    sum = 0
-    for i in range(len(No)):
-        sum += int(No[i])
-    return sum
+    length = len(No)
+    return length
 
 def main():
-    No =int(input("Enter the No :"))
-    print(NumberCount(No))
+    No =(input("Enter the No :"))
+    ret = (NumberCount(No))
+    print(ret)
 
 main()

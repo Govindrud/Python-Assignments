@@ -9,10 +9,10 @@ def main():
     Number = int(input("Enter the  Number :"))
     
     Ret=Perfect(Number)
-    if Ret == Number:
-        print(" Number is perfect Number   : ",Ret)
-    else:
-        print(f"{Number} is Not a perfect number")
+    # if Ret == Number:
+    print(" Number is perfect Number   : ",Ret)
+    # else:
+    #     print(f"{Number} is Not a perfect number")
 
 if __name__ =="__main__":
     main()

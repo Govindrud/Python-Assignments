@@ -4,11 +4,9 @@ def Vowels(Value):
 
         if Value == i:
             print("This is a vowel")
-        else:
-            print("This is not a vowel")
-    
-    
-    
+        elif Value != i:
+            print("This is not a vowel")   
+             
 def main():
     Value = (input("Enter the character :"))
     Ret=Vowels(Value)

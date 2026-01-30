@@ -1,4 +1,4 @@
-Square = lambda No : (No % 2 !=0)
+odd = lambda No : (No % 2 !=0)
 
 def main():
     
@@ -12,7 +12,7 @@ def main():
         No  = int(input("Enter the Number :"))
         
         Data.append(No)
-    MData = list(filter(Square,Data))
+    MData = list(filter(odd,Data))
     print(MData)
 
 

@@ -9,7 +9,7 @@ def NuturalNumberSum(Value):
 def main():
     Value = int(input("Enter the value : "))
     Ret= NuturalNumberSum(Value)
-    print("Sum of NAtural Numbers is :",Ret)
+    print("Sum of Natural Numbers is :",Ret)
     
 
 if __name__ == "__main__":

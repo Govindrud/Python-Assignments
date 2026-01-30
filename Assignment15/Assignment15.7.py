@@ -12,7 +12,7 @@ def main():
     print(Data)
 
     Stringarray = list(filter(GreaterString,Data))
-    print("Gretest String is : ",Stringarray)
+    print("Greatest String is : ",Stringarray)
 
 main()
     

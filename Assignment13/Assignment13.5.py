@@ -8,6 +8,8 @@ def Grading(Marks):
         print("Second Class")
     elif (Marks <=50):
         print("Fail")
+   
+
     
 
 def main():

@@ -4,7 +4,7 @@ def PrimeNumber(Value):
 
 
          if Value % i==0:
-            print("The value is Not prime Number")
+            print("The Value is Not prime Number")
             break
         else:
             print("The Value is Prime Number")
