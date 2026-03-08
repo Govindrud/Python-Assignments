@@ -13,7 +13,7 @@ def Weather(Datapath):
     print(Border)
     print("Step 1 : Load the Dataset")
     print(Border)
-    df = pd.read_csv("PlayPredictor.csv")
+    df = pd.read_csv(Datapath)
     print(df.head())
     print(df.shape)
 
